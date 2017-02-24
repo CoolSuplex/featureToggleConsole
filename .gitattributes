@@ -3,3 +3,8 @@ src/main/resources/static/* linguist-vendored
 project-docs/* linguist-documentation
 
 *.rb linguist-language=Java
+
+
+*.gitattributes text
+.gitignore text
+*.md text
