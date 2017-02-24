@@ -28,9 +28,9 @@ public class ConsoleFF4jProvider implements FF4JProvider{
         try {
             Base64 base64 = new Base64();
             dataSource.setDriverClassName("com.mysql.jdbc.Driver");           
-            dataSource.setUrl("jdbc:mysql://featuretoggle-poc.cvg63gqqyfjt.us-east-1.rds.amazonaws.com:3306/FT_POC");
-            dataSource.setUsername("ashutosh");
-            dataSource.setPassword("ashutosh");
+            dataSource.setUrl("DB_URL");
+            dataSource.setUsername("username");
+            dataSource.setPassword("password");
         }
         catch (final Exception ex) {
             System.out.println(ex);
